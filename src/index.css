@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#dark{
+  background-color: rgb(35, 54, 61);
+  font-family: 'Poppins', sans-serif;
+  
+  color: white;
+}
+#light{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  
+}
+
+@media only screen and (max-width:400px) {
+  .card-responsive{
+    width: 300px !important;
+  }
+  .img-responsive{
+    width: 200px;
+  }
+  
+}
+
+@media only screen and (max-width:310px) {
+  .card-responsive{
+    width: 280px !important;
+  }
+  .img-responsive{
+    width: 200px !important;
+  }
+  .input-responsive{
+    width: 100px !important;
+  }
+  .btn-responsive{
+    width: 80px !important;
+    font-size: 10px !important;
+  }
+  
+}
+@media only screen and (max-width:281px) {
+  .card-responsive{
+    width: 230px !important;
+  }
+  .img-responsive{
+    width: 200px;
+  }
+  
+}
